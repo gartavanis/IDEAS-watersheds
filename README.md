@@ -2,7 +2,7 @@
 
 **Note:** *: the Docker image might take a while to download, so make sure you do these steps ahead of the workshop.*
 
-  1.	Go to [Docker](https://www.docker.com/products/docker-desktop/) and download Docker Desktop. Make sure you download the correct version based on your computer’s architecture. Follow the instructions to install Docker Desktop. [http://url/to/img.png](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker.png)
+  1.	Go to [Docker](https://www.docker.com/products/docker-desktop/) and download Docker Desktop. Make sure you download the correct version based on your computer’s architecture. Follow the instructions to install Docker Desktop. ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker.png)
   2.	Start Docker Desktop and make sure it’s running while you do the next steps. You might need to create an account and sign in if you don’t already have one.
   3.	Start a new terminal session.
   4.	Pull the parflow/subsettools image from DockerHub. Choose the correct version based on your computer’s architecture:
