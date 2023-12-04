@@ -15,7 +15,7 @@ docker pull george135/subsettools_amd64
 ```bash
 docker pull george135/subsettools_arm64
 ```
-  5. Once the image has finished downloading, you can run the container with:
+  6. Once the image has finished downloading, you can run the container with:
 - For the x86_64/amd64 architecture:
 ```bash
 docker run -dp 8888:8888 george135/subsettools_amd64:latest start-notebook.sh --NotebookApp.token=''
@@ -24,14 +24,14 @@ docker run -dp 8888:8888 george135/subsettools_amd64:latest start-notebook.sh --
 ```bash
 docker run -dp 8888:8888 george135/subsettools_arm64:latest start-notebook.sh --NotebookApp.token=''
 ```
-  6. Use a browser to navigate to your [JupyterLab container](http://localhost:8888/lab?) or use the link that will appear next to your container on the Docker Desktop application: ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker2.png)
-  7. You should see a JupyterLab environment like this: ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker3.png)
-  8. Click on the Terminal application to start a terminal session *inside* the container.
-  9. Clone the GitHub repository that contains the example workflows for `subsettools and `hf_hydrodata`:
+  7. Use a browser to navigate to your [JupyterLab container](http://localhost:8888/lab?) or use the link that will appear next to your container on the Docker Desktop application: ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker2.png)
+  8. You should see a JupyterLab environment like this: ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker3.png)
+  9. Click on the Terminal application to start a terminal session *inside* the container.
+ 10. Clone the GitHub repository that contains the example workflows for `subsettools and `hf_hydrodata`:
 ```bash
 git clone https://github.com/hydroframe/subsettools-binder.git
 ```
- 10. Navigate to `subsettools-binder` -> `subsettools` folder and click on the `definte_subset.ipynb` notebook. ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker4.png)
- 11. Make sure the notebook runs successfully without errors. **You will need to provide your Hydrogen email and pin in the first code cell of the notebook.**
- 12. Congratulations, you're all setup for Sunday!
- 13. The documentation for [subsettools](https://hydroframesubsettools.readthedocs.io/en/latest/index.html) and [hf_hydrodata](https://hf-hydrodata.readthedocs.io/en/latest/) is hosted at Read The Docs
+ 11. Navigate to `subsettools-binder` -> `subsettools` folder and click on the `definte_subset.ipynb` notebook. ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker4.png)
+ 12. Make sure the notebook runs successfully without errors. **You will need to provide your Hydrogen email and pin in the first code cell of the notebook.**
+ 13. Congratulations, you're all setup for Sunday!
+ 14. The documentation for [subsettools](https://hydroframesubsettools.readthedocs.io/en/latest/index.html) and [hf_hydrodata](https://hf-hydrodata.readthedocs.io/en/latest/) is hosted at Read The Docs
