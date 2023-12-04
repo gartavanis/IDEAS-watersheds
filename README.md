@@ -31,5 +31,5 @@ docker run -dp 8888:8888 george135/subsettools_arm64:latest start-notebook.sh --
 git clone https://github.com/hydroframe/subsettools-binder.git
 ```
  10. Navigate to `subsettools-binder` -> `subsettools` folder and click on the `definte_subset.ipynb` notebook. ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker4.png)
- 11. Make sure the notebook runs successfully.
+ 11. Make sure the notebook runs successfully without errors.
  12. Congratulations, you're all setup for Sunday!
