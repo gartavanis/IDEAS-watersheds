@@ -1,6 +1,6 @@
 # Instructions for getting setup with Docker for the IDEAS-watersheds workshop 
 
-**Note:** *: the Docker image might take a while to download, so make sure you do these steps ahead of the workshop.*
+**Note:** *The Docker image might take a while to download, so make sure you do these steps ahead of the workshop.*
 
   1.	Go to [Docker](https://www.docker.com/products/docker-desktop/) and download Docker Desktop. Make sure you download the correct version based on your computer’s operating system and architecture. Follow the instructions to install Docker Desktop. ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker.png)
   2.	Launch Docker Desktop. The application should be running while you do the next steps. (You might need to create a Docker account and sign in if you don’t already have one.)
