@@ -15,8 +15,6 @@ docker pull george135/subsettools_amd64
 ```bash
 docker pull george135/subsettools_arm64
 ```
-**NOTE:** *If your Docker is running out of space, you might need to use [docker system prune](https://docs.docker.com/engine/reference/commandline/system_prune/) with the appropriate options to clear out old containers and make space for the new one.*
-
   5. Once the image has finished downloading, you can run the container with:
 - For the x86_64/amd64 architecture:
 ```bash
