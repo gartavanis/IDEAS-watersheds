@@ -8,11 +8,11 @@
   4.	Start a new terminal session (outside Docker) to type the commands in the next two steps:
   5.	Pull the parflow/subsettools image from DockerHub. Choose the correct version based on your computer’s architecture:
 **NOTE:** *If your Docker is running out of space, you might need to use [docker system prune](https://docs.docker.com/engine/reference/commandline/system_prune/) with the appropriate options to clear out old containers and make space for the new one.*
-- For the x86_64/amd64 architecture:
+- For the x86_64/amd64 (Intel Chip for Mac) architecture:
 ```bash
 docker pull george135/subsettools_amd64
 ```
-- For the arm64 architecture:
+- For the arm64 (M1/M2 chip for Mac) architecture:
 ```bash
 docker pull george135/subsettools_arm64
 ```
