@@ -32,6 +32,6 @@ docker run -dp 8888:8888 george135/subsettools_arm64:latest start-notebook.sh --
 git clone https://github.com/hydroframe/subsettools-binder.git
 ```
  10. Navigate to `subsettools-binder` -> `subsettools` folder and click on the `definte_subset.ipynb` notebook. ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker4.png)
- 11. Make sure the notebook runs successfully without errors.
+ 11. Make sure the notebook runs successfully without errors. **You will need to provide your Hydrogen email and pin in the first code cell of the notebook.**
  12. Congratulations, you're all setup for Sunday!
  13. The documentation for [subsettools](https://hydroframesubsettools.readthedocs.io/en/latest/index.html) and [hf_hydrodata](https://hf-hydrodata.readthedocs.io/en/latest/) is hosted at Read The Docs
