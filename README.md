@@ -23,6 +23,6 @@ docker run -dp 8888:8888 george135/subsettools_amd64:latest start-notebook.sh --
 ```bash
 docker run -dp 8888:8888 george135/subsettools_arm64:latest start-notebook.sh --NotebookApp.token=''
 ```
-  6. Go to http://localhost:8888/lab?
+  6. Use a browser to navigate to http://localhost:8888/lab? or use the link that will appear next to your container on the Docker application: ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker2.png)
   7. You should see a JupyterLab environment like this:
   8. 
