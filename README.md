@@ -34,3 +34,4 @@ git clone https://github.com/hydroframe/subsettools-binder.git
  10. Navigate to `subsettools-binder` -> `subsettools` folder and click on the `definte_subset.ipynb` notebook. ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker4.png)
  11. Make sure the notebook runs successfully without errors.
  12. Congratulations, you're all setup for Sunday!
+ 13. The documentation for [subsettools](https://hydroframesubsettools.readthedocs.io/en/latest/index.html) and [hf_hydrodata](https://hf-hydrodata.readthedocs.io/en/latest/) is hosted at Read The Docs
