@@ -6,22 +6,23 @@
   2.	Start Docker Desktop and make sure it’s running while you do the next steps. You might need to create an account and sign in if you don’t already have one.
   3.	Start a new terminal session.
   4.	Pull the parflow/subsettools image from DockerHub. Choose the correct version based on your computer’s architecture:
-- For the x86_64/amd64 architecture type:
+- For the x86_64/amd64 architecture:
 ```bash
 docker pull george135/subsettools_amd64
 ```
-- For the arm64 architecture type:
+- For the arm64 architecture:
 ```bash
 docker pull george135/subsettools_arm64
 ```
   5. Once the image has finished downloading, you can run the image with:
-- For the x86_64/amd64 architecture type:
+- For the x86_64/amd64 architecture:
 ```bash
 docker run -dp 8888:8888 george135/subsettools_amd64:latest start-notebook.sh --NotebookApp.token=''
 ```
-- For the arm64 architecture type:
+- For the arm64 architecture:
 ```bash
 docker run -dp 8888:8888 george135/subsettools_arm64:latest start-notebook.sh --NotebookApp.token=''
 ```
-  7. 
+  6. Go to http://localhost:8888/lab?
+  7. You should see a JupyterLab environment like this:
   8. 
