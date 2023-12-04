@@ -28,7 +28,7 @@ docker run -dp 8888:8888 george135/subsettools_arm64:latest start-notebook.sh --
   7. Use a browser to navigate to your [JupyterLab container](http://localhost:8888/lab?) or use the link that will appear next to your container on the Docker Desktop application: ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker2.png)
   8. You should see a JupyterLab environment like this: ![alt text](https://github.com/gartavanis/IDEAS-watersheds/blob/main/Docker3.png)
   9. Click on the Terminal application to start a terminal session *inside* the container.
- 10. Clone the GitHub repository that contains the example workflows for `subsettools and `hf_hydrodata`:
+ 10. Clone the GitHub repository that contains the example workflows for `subsettools` and `hf_hydrodata`:
 ```bash
 git clone https://github.com/hydroframe/subsettools-binder.git
 ```
