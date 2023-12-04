@@ -1,4 +1,4 @@
-# Instructions for getting setup with Docker for the IDEAS-watersheds workshop 
+# Instructions for getting setup for the IDEAS-watersheds workshop 
 
 **Note:** *The Docker image might take a while to download, so make sure you do these steps ahead of the workshop.*
 
