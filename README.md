@@ -15,8 +15,13 @@ docker pull george135/subsettools_amd64
 docker pull george135/subsettools_arm64
 ```
   5. Once the image has finished downloading, you can run the image with:
-     ```bash
-     docker run -dp 8888:8888 george135/subsettools_arm64:latest start-notebook.sh --NotebookApp.token=''
-     ```
+- For the x86_64/amd64 architecture type:
+```bash
+docker run -dp 8888:8888 george135/subsettools_amd64:latest start-notebook.sh --NotebookApp.token=''
+```
+- For the arm64 architecture type:
+```bash
+docker run -dp 8888:8888 george135/subsettools_arm64:latest start-notebook.sh --NotebookApp.token=''
+```
   7. 
-
+  8. 
